@@ -1,0 +1,94 @@
+body{
+    background-color: #000842;
+    background-color: #121212;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 15px;
+    text-align: center;
+    color: #fff;
+}
+a:hover{color: #0FA0CE;}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    margin-top: 20px;
+    border: 2px solid #000;
+}
+
+.header{
+    display: flex;
+    margin: 20px auto;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.landing{
+    height: 50%;
+    background-color: #3e3e9a;
+    padding: 5rem;
+}
+
+.line-top{
+    font-size: 2em;
+}
+.line-bottom{
+    font-size: 1em;
+}
+
+
+.text-heading{
+    margin: 10px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    border: 2px solid black;
+}
+.card a{
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px 0;
+}
+.lTwitter{font-size: 2em;}
+.lTwitter:hover{color: #0FA0CE;}
+.lEmail{font-size: 2em;}
+.lEmail:hover{color: #0FA0CE;}
+.lGithub{font-size: 2em;}
+.lGithub:hover{color: #0FA0CE;}
+
+
+/* Media Queries */
+@media (min-width: 400px){
+    body{
+        min-width: 400px;
+    }
+    .header{
+        justify-content: center;
+    }
+    .landing > img{
+        max-width: 64px;
+    }
+   
+    
+}
